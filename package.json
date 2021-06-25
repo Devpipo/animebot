@@ -1,0 +1,19 @@
+{
+  "name": "irotuka-v1-main",
+  "version": "1.0.0",
+  "description": "Bonjour à tous, après la sortie du irotuka v2, je vous propose enfin le repositories du bot irotuka v2. Il est important de le rappeler mais le bot a été fait il y a assez longtemps, rien ne garantit qu'il fonctionne toujours, j'ai patché rapidement les erreurs basiques, et j'ai supprimé toutes les commandes qui comportait une database.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.2",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pipodraw",
+  "license": "ISC"
+}
