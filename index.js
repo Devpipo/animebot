@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const fs = require('fs');
 const {TOKEN} = require("./config.js");
 
-client.login(TOKEN);
+client.login(process.env.TOKEN);
 
 client.commands = new Discord.Collection();
 fs.readdir("./Commandes/", (error, f) => {
